@@ -16,7 +16,9 @@ NB. I have not coded it to check whether there is extra markup inside the html o
 ## Implementation
 Annoyingly, the `p:first-child:first-letter` CSS pseudoelement is really cool, but when it comes to graphical dropcaps it does not discern between the letters.
 Therefore, here a JS script finds the first letter and alters it (e.g. `<span class=drop-X`>X</span>) and loads only the needed figure.
+
 The JS can be circumvented by doing it manually and adding a span with the class drop-A or whatever letter and using the whole of the `dropcaps.css` style sheet or only the required parts.
+
 Soon SVG fonts, aka. color fonts, will hit the web fully. This is great and it means that the p:first-child:first-letter pseudoelement could work with a custom SVG font of protein alphabet. But the pretty major catch is that a PyMol view cannot be exported as SVG and illustrator does not do a clean job of vectorising the images.
 
 ## Figure generations
