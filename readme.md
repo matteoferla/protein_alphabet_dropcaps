@@ -1,4 +1,5 @@
 The protein alphabet is a series of protein structure views that look like letters compiled by Mark Howarth. This can be found [here](http://www.bioch.ox.ac.uk/howarth/alphabet.htm).
+
 This css/js library makes use of it to make dropcaps. [Here is a demo](https://rawgit.com/matteoferla/protein_alphabet_dropcaps/master/demo.html).
 
 ## Use
@@ -8,8 +9,8 @@ This will fetch it magically from the internet...
 ### Option B
 Add the `Alphabet_ray folder` and `protein_dropcaps.js` in your website directory and add `<script src="image_dropcaps.js" type="text/javascript"></script>` (or wherever you put it).
 The `protein_dropcaps.js` script is written lazily so uses a relative path that assumes `Alphabet_ray` is in the root directory. Therefore if you add the pngs to somewhere else change the path accordingly within the js file.
-### where to expect dropcaps
-In the code, it will make a dropcap at the first letter of a paragraph element (`<p>`), either the first in a page or of a paragraph after a level one header (`<h1>`).
+### where to expect dropcaps to automatically appear
+In the code, the script will automatically make a dropcap at the first letter of a paragraph element (`<p>`), either the first in a page or of a paragraph after a level one header (`<h1>`).
 NB. I have not coded it to check whether there is extra markup inside the html of the p-element.
 
 ## Implementation
