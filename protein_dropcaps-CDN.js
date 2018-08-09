@@ -15,7 +15,6 @@ for (var i=0; i<c.length; i++) {
     if (document.body.children[i].nodeName == 'P' && drop) {
         var letter=document.body.children[i].innerText[0].toUpperCase();
         document.body.children[i].innerHTML='<span class=drop-{L}></span>'.replace('{L}',letter)+document.body.children[i].innerHTML.slice(1);
-        console.log(css.replace(/LETTER/g,letter));
         style.appendChild(document.createTextNode(css.replace(/LETTER/g,letter)));
         document.body.children[i].classList.add("dropcap-"+letter);
         drop=false;
