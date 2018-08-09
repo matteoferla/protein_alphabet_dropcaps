@@ -3,7 +3,7 @@ var style = document.createElement('style');
 style.type = 'text/css';
 var css=".drop-LETTER{float: left;\
          font-size: .1px;\
-         background: url('Alphabet_ray/LETTER.png') no-repeat;\
+         background: url('https://rawgit.com/matteoferla/protein_alphabet_dropcaps/master/Alphabet_ray/LETTER.png') no-repeat;\
          background-size: 45px;\
          padding: 40px 0 0 40px;\
          margin-right: 9px;}";
