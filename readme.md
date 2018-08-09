@@ -1,6 +1,6 @@
 The protein alphabet is a series of protein structure views that look like letters compiled by Mark Howarth. This can be found [here](http://www.bioch.ox.ac.uk/howarth/alphabet.htm).
 
-This css/js library makes use of it to make dropcaps. [Here is a demo](https://rawgit.com/matteoferla/protein_alphabet_dropcaps/master/demo.html).
+This css/js library makes use of it to make dropcaps. [Here is a demo](https://rawgit.com/matteoferla/protein_alphabet_dropcaps/master/demo.html).
 
 ## Use
 ### Option A
