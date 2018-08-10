@@ -3,10 +3,10 @@ The protein alphabet is a series of protein structure views that look like lette
 This css/js library makes use of it to make dropcaps. [Here is a demo](https://rawgit.com/matteoferla/protein_alphabet_dropcaps/master/demo.html).
 
 ## Use
-### Option A
-Add the line: `<script src="https://rawgit.com/matteoferla/protein_alphabet_dropcaps/master/protein_dropcaps-CDN.js" type="text/javascript"></script>` somewhere (preferably bottommost of body).
+### Option A: CDN
+Add the line: `<script src="https://cdn.rawgit.com/matteoferla/protein_alphabet_dropcaps/master/protein_dropcaps-CDN.js" type="text/javascript"></script>` somewhere (preferably bottommost of body).
 This will fetch it magically from the internet...
-### Option B
+### Option B: serverside
 Add the `Alphabet_ray folder` and `protein_dropcaps.js` in your website directory and add `<script src="image_dropcaps.js" type="text/javascript"></script>` (or wherever you put it).
 The `protein_dropcaps.js` script is written lazily so uses a relative path that assumes `Alphabet_ray` is in the root directory. Therefore if you add the pngs to somewhere else change the path accordingly within the js file.
 ### where to expect dropcaps to automatically appear
